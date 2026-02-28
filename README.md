@@ -14,7 +14,7 @@ This is the foundational paper in which Markov introduces what are now known as 
 
 ## LaTeX Transcription
 
-The file `Markov_1906.tex` (in the parent directory) is a manual transcription of the full paper from the scanned PDF into LaTeX.
+The file `Markov_1906_Russian.tex` (in the parent directory) is a manual transcription of the full paper from the scanned PDF into LaTeX.
 
 ### Transcription method
 
@@ -25,7 +25,7 @@ The scanned PDF is image-based (no OCR text layer). The transcription was perfor
 The document requires **XeLaTeX** (not pdflatex) due to the use of pre-revolutionary Russian orthography with Unicode characters (ъ, ѣ, і, ѳ):
 
 ```bash
-xelatex Markov_1906.tex
+xelatex Markov_1906_Russian.tex
 ```
 
 Dependencies: `fontspec`, `polyglossia`, `amsmath`, `amssymb`. The font used is **PT Serif** (must be installed on the system).
